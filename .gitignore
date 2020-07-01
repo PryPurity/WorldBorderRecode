@@ -6,7 +6,6 @@
 .idea/
 *.iml
 *.iws
-WorldBorderRecode.iml.iml
 /out/
 # Mac
 .DS_Store
