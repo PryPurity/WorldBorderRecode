@@ -1,4 +1,6 @@
 Version: 1
 
 Wborder: "Wborder.wborder"
-WBVersion:
+WBVersion: "Wborder.version"
+WBFill: "Wborder.fill"
+WBSet: "Wborder.set"

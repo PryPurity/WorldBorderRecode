@@ -23,7 +23,11 @@ public class wborder implements CommandExecutor {
                     Utils.chat(player, " ");
                     Utils.chat(player, "For help, please use the '/wborder help' command.");
                 } else if (check.equals("help") || check.equals("?")) {
+                    Utils.chat(player, "/wborder set <radius> [Square/Circle] - Default Square");
+                    Utils.chat(player, "/wborder fill [chunks/second] | <confirm> - Default 20 Chunks");
                     Utils.chat(player, "/wborder set <radius> <Square/Circle>");
+                    Utils.chat(player, "/wborder set <radius> <Square/Circle>");
+                    Utils.chat(player, "/wborder version");
                 }
             } else {
                 Utils.chat(player, Main.messages.getString("NoPerms"));

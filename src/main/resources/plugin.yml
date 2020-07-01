@@ -4,5 +4,5 @@ main: Main
 api-version: 1.13
 load: STARTUP
 softdepend: [dynmap]
-authors: [BrettFan, PryPurity]
+authors: [BrettFan, PryPurity, md5sha256]
 description: Re-code of Main
