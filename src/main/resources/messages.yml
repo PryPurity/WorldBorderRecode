@@ -1,0 +1,8 @@
+Version: 1
+
+PluginEnabled: "Main has been loaded and enabled, Thank you for using Main Re-coded!"
+PluginVersion: "You are currently running version, %version% of Dynmap Re-coded!"
+NoPerms: "&cYou do not have permission to run this command."
+SNP: "&cYou must be a player to run this command."
+HelpTextFill: "This command will generate missing world chunks inside your border. [freq] is the frequency of chunks per second that will be checked (default 20). [pad] is the number of blocks padding added beyond the border itself (default 208, to cover player visual range). [force] can be specified as true to force all chunks to be loaded even if they seem to be fully generated (default false)."
+HelpTextOther: "Default value: 5. The <amount> is in server ticks, of which there are roughly 20 every second, each tick taking ~50ms. The default value therefore has border checks run about 4 times per second."

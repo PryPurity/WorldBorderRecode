@@ -1,0 +1,19 @@
+#Do NOT change the config version. You will break the plugin by doing so....
+Version: 1
+
+ShapeRound: false
+DEBUG: false
+WhooshEffect: true
+PortalRedirection: true
+KnockBack: 3.0
+TimerTicks: 5
+RemountDelayTicks: 0
+DynmapEnable: true
+DynmapHideByDefault: false
+DynmapPriority: 0
+KillPlayer: false
+DenyEnderpearl: true
+FillAutosaveFrequency: 30
+FillMemoryTolerance: 500
+PreventBlockPlace: false
+PreventMobSpawn: false
