@@ -32,5 +32,6 @@
     <orderEntry type="library" name="Maven: org.json:json:20190722" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains:annotations:18.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: us.dynmap:dynmap-api:2.5" level="project" />
+    <orderEntry type="library" name="Maven: io.papermc:paperlib:1.0.4" level="project" />
   </component>
 </module>

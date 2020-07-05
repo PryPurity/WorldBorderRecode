@@ -1,4 +1,4 @@
-package com.github.prypurity.worldborder.Utils;
+package com.github.prypurity.worldborder.utils;
 
 import com.github.prypurity.worldborder.Main;
 import org.bukkit.ChatColor;
@@ -6,6 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class Utils {
+
 
     public static String chat(String s) {
         return ChatColor.translateAlternateColorCodes('&', s);
@@ -22,5 +23,6 @@ public class Utils {
     public static void help(Player player) {
         player.sendMessage(Main.messages.getString("HelpText"));
     }
+
 
 }

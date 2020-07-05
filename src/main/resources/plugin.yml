@@ -3,6 +3,6 @@ version: ${project.version}
 main: Main
 api-version: 1.13
 load: STARTUP
-softdepend: [dynmap]
+softdepend: [dynmap, hyperverse]
 authors: [BrettFan, PryPurity, md5sha256]
 description: Re-code of Main

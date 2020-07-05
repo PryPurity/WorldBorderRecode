@@ -1,7 +1,7 @@
 package com.github.prypurity.worldborder;
 
+import com.github.prypurity.worldborder.cmds.wbBorder;
 import com.github.prypurity.worldborder.cmds.wbVersion;
-import com.github.prypurity.worldborder.cmds.wborder;
 import de.leonhard.storage.LightningBuilder;
 import de.leonhard.storage.Yaml;
 import de.leonhard.storage.internal.settings.ConfigSettings;
@@ -34,11 +34,10 @@ public final class Main extends JavaPlugin {
     @Override
     public void onDisable() {
         Bukkit.getConsoleSender().sendMessage("World Border Re-Code has been successfully Disabled!");
-        // Plugin shutdown logic
     }
 
     public void registerCmds() {
-        getCommand("wborder").setExecutor(new wborder());
+        getCommand("wbBorder").setExecutor(new wbBorder());
         getCommand("wbversion").setExecutor(new wbVersion());
     }
 

@@ -1,7 +1,7 @@
 package com.github.prypurity.worldborder.cmds;
 
 import com.github.prypurity.worldborder.Main;
-import com.github.prypurity.worldborder.Utils.Utils;
+import com.github.prypurity.worldborder.utils.Utils;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -18,6 +18,8 @@ public class wbVersion implements CommandExecutor {
             } else {
                 Utils.chat(player, Main.messages.getString("NoPerms"));
             }
+        } else {
+            Utils.chat(sender, Main.messages.getString("PluginVersion").replace("%version%", getClass().getPackage().getImplementationVersion()));
         }
         return false;
     }
